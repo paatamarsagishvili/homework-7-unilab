@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+.loading{
+    position: relative;
+    margin-top: 250px;
+    animation: mymove 10s infinite;
+
+
+}
+.poke{
+	width: 250px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	
+}	
+@keyframes mymove {
+   0% {top: 0px;}
+   25%{top left: 150px;}
+   50%{top: 150px;}
+   100%{top:0px;}
+}
+.para{
+	font: 12pt 'sigmar one';
+	text-align: center
+	}
